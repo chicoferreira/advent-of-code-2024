@@ -65,11 +65,11 @@ fn run(input: &str, can_turn_off: bool) -> u32 {
 }
 
 #[aoc(day3, part1)]
-fn part1(input: &str) -> u32 {
+pub fn part1(input: &str) -> u32 {
     run(input, false)
 }
 
 #[aoc(day3, part2)]
-fn part2(input: &str) -> u32 {
+pub fn part2(input: &str) -> u32 {
     run(input, true)
 }
